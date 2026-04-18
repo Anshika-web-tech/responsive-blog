@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Pro Responsive Blog</title>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark site-header">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">MyBlog</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+      ☰
+    </button>
+
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Articles</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="container mt-4">
+  <div class="hero p-5 shadow">
+    <h1 class="fw-bold">Modern Responsive Blog</h1>
+    <p>Clean UI. Smooth UX. Works on every device.</p>
+    <button class="btn btn-light">Explore</button>
+  </div>
+</section>
+
+<!-- Content -->
+<div class="container mt-5">
+  <div class="row">
+
+    <!-- Blog Posts -->
+    <div class="col-lg-8">
+      <div class="row g-4">
+
+        <!-- Card -->
+        <div class="col-md-6">
+          <div class="card post-card">
+            <img src="https://source.unsplash.com/600x400/?coding">
+            <div class="card-body">
+              <span class="badge bg-info mb-2">Web Dev</span>
+              <h5>Bootstrap Tips</h5>
+              <p>Learn how to build responsive layouts quickly.</p>
+              <button class="btn btn-primary btn-sm">Read</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card post-card">
+            <img src="https://source.unsplash.com/600x400/?design">
+            <div class="card-body">
+              <span class="badge bg-success mb-2">UI/UX</span>
+              <h5>Design Better UI</h5>
+              <p>Create beautiful and user-friendly interfaces.</p>
+              <button class="btn btn-primary btn-sm">Read</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="col-lg-4">
+      <div class="card sidebar-card p-3">
+        <h5>About</h5>
+        <p>This is a professional responsive blog layout.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Back to Top -->
+<button id="topBtn" class="btn btn-primary">↑</button>
+
+<!-- Footer -->
+<footer class="text-center mt-5 p-4">
+  <p>© 2025 MyBlog</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
